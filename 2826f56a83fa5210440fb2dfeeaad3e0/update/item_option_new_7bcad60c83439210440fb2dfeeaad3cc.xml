@@ -22,7 +22,7 @@
         <dynamic_value_field display_value="Media/ TV Show/ Episode">d18cf5bf833e1210440fb2dfeeaad301</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>active</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -39,7 +39,7 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>poster</name>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-07 15:04:25</sys_created_on>
         <sys_id>7bcad60c83439210440fb2dfeeaad3cc</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>poster</sys_name>
         <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
         <sys_update_name>item_option_new_7bcad60c83439210440fb2dfeeaad3cc</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-07 15:16:19</sys_updated_on>
+        <sys_updated_by>raas_tester</sys_updated_by>
+        <sys_updated_on>2025-01-07 18:29:55</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
