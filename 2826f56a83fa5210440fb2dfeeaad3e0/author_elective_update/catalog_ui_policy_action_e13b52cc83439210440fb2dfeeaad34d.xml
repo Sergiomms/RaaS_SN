@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Media Review">31843d37833e1210440fb2dfeeaad322</catalog_item>
+        <catalog_variable>IO:7bcad60c83439210440fb2dfeeaad3cc</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 15:05:36</sys_created_on>
+        <sys_id>e13b52cc83439210440fb2dfeeaad34d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e13b52cc83439210440fb2dfeeaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 18:53:58</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show when field is not empty">1e18428483039210440fb2dfeeaad36f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>poster</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=e13b52cc83439210440fb2dfeeaad34d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</application>
+        <file_path/>
+        <instance_id>d8e710dadbd2fd5037d72a5913961980</instance_id>
+        <instance_name>dev206006</instance_name>
+        <name>catalog_ui_policy_action_e13b52cc83439210440fb2dfeeaad34d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Media Review">31843d37833e1210440fb2dfeeaad322</catalog_item><catalog_variable>IO:7bcad60c83439210440fb2dfeeaad3cc</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-07 15:05:36</sys_created_on><sys_id>e13b52cc83439210440fb2dfeeaad34d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>poster</sys_name><sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package><sys_policy/><sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope><sys_update_name>catalog_ui_policy_action_e13b52cc83439210440fb2dfeeaad34d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-07 18:53:58</sys_updated_on><table/><ui_policy display_value="Show when field is not empty">1e18428483039210440fb2dfeeaad36f</ui_policy><value/><value_action>ignore</value_action><variable>poster</variable><variable_set/><visible>false</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=e13b52cc83439210440fb2dfeeaad34d"/></record_update>]]></payload>
+        <payload_hash>-1692496676</payload_hash>
+        <record_name>poster</record_name>
+        <reverted_from/>
+        <source>d308c3b28336d210440fb2dfeeaad3e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 18:53:58</sys_created_on>
+        <sys_id>fa8f0b8083879210440fb2dfeeaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194421dd4600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 18:53:58</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>728f0b80728792102c228735b0b23c06</update_guid>
+        <update_guid_history>728f0b80728792102c228735b0b23c06:-1692496676,f80f4f4072879210878fc6077e345b80:-1151456701,a82e56c08f839210dbc672fefd94660b:-1692496676,a54b96cccc439210dcd54a4e6709e29b:-1151456701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="poster">37547bc8830b9210440fb2dfeeaad389</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 21:34:52</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>37d357f8bdd04700862a81fda2ec9000</sys_id>
+        <sys_metadata>e13b52cc83439210440fb2dfeeaad34d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
+        <sys_scope_delete display_value="">3233bf52d5be4c81903d27c3bff6d319</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_e13b52cc83439210440fb2dfeeaad34d</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_e13b52cc83439210440fb2dfeeaad34d">fa8f0b8083879210440fb2dfeeaad306</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 21:34:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
