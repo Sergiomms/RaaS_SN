@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Don't show "edit" or "new" buttons in related lists whem media state is complete</description>
+        <field>state</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Ocult related list buttons</name>
+        <order/>
+        <script><![CDATA[function onLoad(control, oldValue, newValue, isLoading, isTemplate) {
+   
+	if (g_form.getValue('state') == '3') {
+	
+		var relatedListActors = 'Actor';
+		var rla = g_form.getControl(relatedListActors);
+		if (rla) {
+			rla.hideNewButton = true;
+			rla.hideEditButton = true;
+			rla.refresh();
+		}
+	}
+
+
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 12:35:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0993c7ea83c35210440fb2dfeeaad37f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Ocult related list buttons</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
+        <sys_update_name>sys_script_client_0993c7ea83c35210440fb2dfeeaad37f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 12:52:19</sys_updated_on>
+        <table>x_1593185_raas_media</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</application>
+        <file_path/>
+        <instance_id>d8e710dadbd2fd5037d72a5913961980</instance_id>
+        <instance_name>dev206006</instance_name>
+        <name>sys_script_client_0993c7ea83c35210440fb2dfeeaad37f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Don't show "edit" or "new" buttons in related lists whem media state is complete&lt;/description&gt;&lt;field&gt;state&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Ocult related list buttons&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad(control, oldValue, newValue, isLoading, isTemplate) {
+   
+	if (g_form.getValue('state') == '3') {
+	
+		var relatedListActors = 'Actor';
+		var rla = g_form.getControl(relatedListActors);
+		if (rla) {
+			rla.hideNewButton = true;
+			rla.hideEditButton = true;
+			rla.refresh();
+		}
+	}
+
+
+}
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-15 12:35:18&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0993c7ea83c35210440fb2dfeeaad37f&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Ocult related list buttons&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RaaS - Sergio" source="x_1593185_raas"&gt;2826f56a83fa5210440fb2dfeeaad3e0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RaaS - Sergio"&gt;2826f56a83fa5210440fb2dfeeaad3e0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0993c7ea83c35210440fb2dfeeaad37f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-15 12:52:19&lt;/sys_updated_on&gt;&lt;table&gt;x_1593185_raas_media&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1333490537</payload_hash>
+        <record_name>Ocult related list buttons</record_name>
+        <reverted_from/>
+        <source>d308c3b28336d210440fb2dfeeaad3e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 12:52:19</sys_created_on>
+        <sys_id>4779cfa283075210440fb2dfeeaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946a059aa10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 12:52:19</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>cb79cfa2cd0752103c3afd1a497b8a72</update_guid>
+        <update_guid_history>cb79cfa2cd0752103c3afd1a497b8a72:1333490537,7239cf6201075210abe3a0c4e481c902:-1503862868,af19c7a23907521001b58d3ba4e00ca0:-1317476628,7ba88f62c00752107a66ec30510abba1:-1836121931,90484762c907521042072ca00da46a82:260030475,c166cbaeb3c352100974fda4c7a773f2:1731562999,dfd5076ab3c352107b693c5b6845a059:1940724434,3d954b6e96c35210601556b57c827f77:305495167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 13:24:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>449eba041b004d2296db02695c250eb9</sys_id>
+        <sys_metadata>0993c7ea83c35210440fb2dfeeaad37f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ocult related list buttons</sys_name>
+        <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
+        <sys_parent display_value="Media">df0aa536837e9210440fb2dfeeaad320</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
+        <sys_scope_delete display_value="">3233bf52d5be4c81903d27c3bff6d319</sys_scope_delete>
+        <sys_update_name>sys_script_client_0993c7ea83c35210440fb2dfeeaad37f</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0993c7ea83c35210440fb2dfeeaad37f">4779cfa283075210440fb2dfeeaad373</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:24:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

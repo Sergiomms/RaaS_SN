@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_1593185_raas_media">state=3^EQ<item display_value="Completed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Don't show "edit" or "new" buttons in related lists whem media state is complete</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 12:17:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa418b2a83c35210440fb2dfeeaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't show "edit" or "new" buttons in related lists whem media state is complete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
+        <sys_update_name>sys_ui_policy_aa418b2a83c35210440fb2dfeeaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 12:17:27</sys_updated_on>
+        <table>x_1593185_raas_media</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</application>
+        <file_path/>
+        <instance_id>d8e710dadbd2fd5037d72a5913961980</instance_id>
+        <instance_name>dev206006</instance_name>
+        <name>sys_ui_policy_aa418b2a83c35210440fb2dfeeaad3fb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1593185_raas_media"&gt;state=3^EQ&lt;item display_value="Completed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Don't show "edit" or "new" buttons in related lists whem media state is complete&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-15 12:17:27&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;aa418b2a83c35210440fb2dfeeaad3fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Don't show "edit" or "new" buttons in related lists whem media state is complete&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="RaaS - Sergio" source="x_1593185_raas"&gt;2826f56a83fa5210440fb2dfeeaad3e0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="RaaS - Sergio"&gt;2826f56a83fa5210440fb2dfeeaad3e0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_aa418b2a83c35210440fb2dfeeaad3fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-15 12:17:27&lt;/sys_updated_on&gt;&lt;table&gt;x_1593185_raas_media&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1490968548</payload_hash>
+        <record_name>Don't show "edit" or "new" buttons in related lists whem media state is complete</record_name>
+        <reverted_from/>
+        <source>d308c3b28336d210440fb2dfeeaad3e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 12:17:27</sys_created_on>
+        <sys_id>e081cb2a83c35210440fb2dfeeaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19469e5af950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 12:17:27</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>e481cb2ab4c352108a3feee0bdbc3602</update_guid>
+        <update_guid_history>e481cb2ab4c352108a3feee0bdbc3602:-1490968548</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 12:26:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>1d265579d7634f1cb2ff0663f3ebe539</sys_id>
+        <sys_metadata>aa418b2a83c35210440fb2dfeeaad3fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't show "edit" or "new" buttons in related lists whem media state is complete</sys_name>
+        <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
+        <sys_parent display_value="Media">df0aa536837e9210440fb2dfeeaad320</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
+        <sys_scope_delete display_value="">3233bf52d5be4c81903d27c3bff6d319</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_aa418b2a83c35210440fb2dfeeaad3fb</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_aa418b2a83c35210440fb2dfeeaad3fb">e081cb2a83c35210440fb2dfeeaad303</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 12:26:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

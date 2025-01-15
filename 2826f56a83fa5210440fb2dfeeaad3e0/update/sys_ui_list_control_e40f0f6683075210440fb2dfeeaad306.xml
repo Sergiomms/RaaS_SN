@@ -16,8 +16,7 @@
         <list_edit_ref_qual_tag/>
         <list_edit_type/>
         <name>x_1593185_raas_media</name>
-        <new_condition><![CDATA[answer = parent.state == "3";
-]]></new_condition>
+        <new_condition><![CDATA[answer = parent.state == "3";]]></new_condition>
         <new_roles/>
         <omit_columns_if_empty>false</omit_columns_if_empty>
         <omit_count>false</omit_count>
@@ -29,31 +28,31 @@
         <omit_if_empty>false</omit_if_empty>
         <omit_links>false</omit_links>
         <omit_new_button>false</omit_new_button>
-        <related_list>x_1593185_raas_m2m_actor_media.x_1593185_raas_media</related_list>
+        <related_list>x_1593185_raas_m2m_director_media.x_1593185_raas_media</related_list>
         <sys_class_name>sys_ui_list_control</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 19:03:12</sys_created_on>
+        <sys_created_on>2025-01-15 13:16:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>0754571a83431210440fb2dfeeaad393</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_id>e40f0f6683075210440fb2dfeeaad306</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>x_1593185_raas_media</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
-        <sys_update_name>sys_ui_list_control_0754571a83431210440fb2dfeeaad393</sys_update_name>
+        <sys_update_name>sys_ui_list_control_e40f0f6683075210440fb2dfeeaad306</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 13:15:31</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:17:11</sys_updated_on>
     </sys_ui_list_control>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>0754571a83431210440fb2dfeeaad393</id>
+        <id>e40f0f6683075210440fb2dfeeaad306</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-14 19:03:11</sys_created_on>
-        <sys_id>f5c497d683431210440fb2dfeeaad36e</sys_id>
+        <sys_created_on>2025-01-15 13:16:34</sys_created_on>
+        <sys_id>d20f8b6a83075210440fb2dfeeaad376</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-14 19:03:11</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:16:34</sys_updated_on>
         <table>sys_ui_list_control</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>
