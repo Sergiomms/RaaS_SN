@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.getValue("state").toString() != "3" &amp;&amp; current.getValeu("integration_state").toString() != "3"</condition>
+        <condition>current.getValue("state").toString() == "1" &amp;&amp; current.getValeu("integration_state").toString() == "3"</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -34,8 +34,53 @@
 current.update();
 
 
+var grMedia = new GlideRecord("x_1593185_raas_media");
+grMedia.addQuery("title", current.getValue("title"));
+grMedia.addQuery("release_year", current.getValue("release_year"));
+grMedia.addQuery("type", current.getValue("type"));
+grMedia.addQuery("state", "3");
+grMedia.addQuery("sys_id", "!=", current.getValue("sys_id"));
 
-]]></script>
+// OU
+// grMedia.addEncodedQuery("Adiciona a query copiada da tabela e altera o valores")
+
+
+grMedia.query();
+
+while(grMedia.next()) {
+	grMedia.setvalue("state", "7");
+	grMedia.setValue("genre", "");
+	grMedia.setValue("release_date", "");
+	grMedia.setValue("category", "");
+	grMedia.setValue("synopsis", "");
+	grMedia.setValue("writers", "");
+	grMedia.setValue("production", "");
+	grMedia.setValue("poster", "");
+	grMedia.setValue("website", "");
+	grMedia.setValue("average_rating", "0");
+	grMedia.setValue("imdb_rating", "0");
+	grMedia.setValue("metascore", "0");
+	grMedia.setValue("awards", "");
+	grMedia.setValue("country", "");
+	grMedia.setValue("language", "");
+	grMedia.setValue("integration_state", "1");
+	grMedia.setValue("integration_error_message", "");
+
+	var grMediaActor = new GlideRecord("x_1593185_raas_m2m_actor_media");
+	grMediaActor.addEncodedQuery("x_1593185_raas_media=" + grMedia.getValue("sys_id"));
+	grMediaActor.query();
+	grMediaActor.deleteMultiple();
+
+	var grMediaDirector = new GlideRecord("x_1593185_raas_m2m_director_media");
+	grMediaDirector.addEncodedQuery("x_1593185_raas_media=" + grMedia.getValue("sys_id"));
+	grMediaDirector.query();
+	grMediaDirector.deleteMultiple();
+
+	grMedia.update();
+}
+
+
+action.setRedirectURL(current);]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -46,7 +91,7 @@ current.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9649f61e83cf1e10440fb2dfeeaad350</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Complete Media</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
@@ -54,7 +99,7 @@ current.update();
         <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
         <sys_update_name>sys_ui_action_9649f61e83cf1e10440fb2dfeeaad350</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 14:58:52</sys_updated_on>
+        <sys_updated_on>2025-01-15 20:58:53</sys_updated_on>
         <table>x_1593185_raas_media</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
