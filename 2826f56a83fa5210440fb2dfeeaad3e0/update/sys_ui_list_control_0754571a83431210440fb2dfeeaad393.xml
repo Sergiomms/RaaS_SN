@@ -2,7 +2,7 @@
     <sys_ui_list_control action="INSERT_OR_UPDATE">
         <columns_condition/>
         <disable_nlq>false</disable_nlq>
-        <edit_condition><![CDATA[answer = parent.state == "3";]]></edit_condition>
+        <edit_condition><![CDATA[answer = parent.state.toString() == "3";]]></edit_condition>
         <edit_default_filter/>
         <edit_roles/>
         <empty_condition/>
@@ -16,7 +16,7 @@
         <list_edit_ref_qual_tag/>
         <list_edit_type/>
         <name>x_1593185_raas_media</name>
-        <new_condition><![CDATA[answer = parent.state == "3";
+        <new_condition><![CDATA[answer = parent.state.toString() == "3";
 ]]></new_condition>
         <new_roles/>
         <omit_columns_if_empty>false</omit_columns_if_empty>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0754571a83431210440fb2dfeeaad393</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>x_1593185_raas_media</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="RaaS - Sergio" source="x_1593185_raas">2826f56a83fa5210440fb2dfeeaad3e0</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="RaaS - Sergio">2826f56a83fa5210440fb2dfeeaad3e0</sys_scope>
         <sys_update_name>sys_ui_list_control_0754571a83431210440fb2dfeeaad393</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-15 13:15:31</sys_updated_on>
+        <sys_updated_on>2025-01-15 13:34:52</sys_updated_on>
     </sys_ui_list_control>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>0754571a83431210440fb2dfeeaad393</id>
